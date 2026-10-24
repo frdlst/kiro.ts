@@ -1,0 +1,11 @@
+{
+  "name": "kiro.ts",
+  "version": "0.1.0",
+  "description": "Kiro provider for Pi, plus a CLI for managing Kiro API keys",
+  "keywords": ["pi-package"],
+  "files": ["extensions", "kiro-keys.mjs", "README.md", "AGENTS.md"],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
